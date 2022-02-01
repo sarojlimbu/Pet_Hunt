@@ -1,0 +1,182 @@
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+
+}
+
+
+
+#title {
+    background-color: #afa6a8;
+    color: #fff;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat-black';
+    line-height: 1.5;
+}
+
+
+
+/* heading section */
+.title-heading {
+    font-size: 3rem;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+}
+
+
+.container-fluid {
+    padding: 5% 10%;
+}
+
+/* navigation bar */
+.navbar-brand {
+    font-family: "ubuntu";
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.navbar {
+    padding-bottom: 4rem;
+
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 200px;
+}
+
+
+/* title image */
+.title-img {
+    width: 200px;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 30%;
+}
+
+@media (max-width:650px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        margin: 5%;
+    }
+}
+
+
+
+/* download button */
+.download-btn {
+    margin: 2rem .5rem 0 0;
+}
+
+/* feature-box */
+#features {
+    padding: 7rem;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.icon {
+    margin: 1rem;
+    color: #afa6a8;
+}
+
+.icon:hover {
+    color: rgb(185, 55, 55);
+}
+
+
+/* testimonials section */
+#testimonials {
+
+    background-color: #afa6a8;
+    color: white;
+}
+
+.testimo-img {
+    border-radius: 100%;
+    width: 200px;
+
+}
+
+.carousel-item {
+    padding: 4rem 8rem;
+}
+
+.testimonial-text {
+    font-size: 2.5rem;
+}
+
+/* press */
+
+#press {
+    background-color: #afa6a8;
+    padding: 4rem;
+}
+
+.press-logo {
+    width: 10rem;
+    margin: 1rem 2rem;
+}
+
+
+/* pricing section */
+
+#pricing {
+    padding: 4rem 10rem;
+}
+
+.pricing-sec {
+    text-align: center;
+    margin: 1rem;
+}
+
+.card-heading {
+    font-size: 2rem;
+}
+
+
+/* call to action */
+#cta {
+    background-color: #afa6a8;
+    font-family: 'Montserrat';
+    padding: 2rem 4rem 4rem;
+    color: white;
+}
+
+/* footer */
+#footer {
+    font-family: 'Montserrat';
+    padding: 1rem 2rem;
+}
+
+.btn-margin {
+    margin: 1rem;
+}
+
+.footer-btn {
+    margin: 1.5rem;
+    line-height: 3;
+    color: #afa6a8;
+}
